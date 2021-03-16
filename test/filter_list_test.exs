@@ -7,7 +7,7 @@ defmodule FilterListTest do
 
       response = FilterList.call(list)
 
-      expected_response = [1, 3, 6, 43, 6]
+      expected_response = 3
 
       assert response == expected_response
     end
